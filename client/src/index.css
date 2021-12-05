@@ -1,0 +1,31 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+.container {
+     display: grid;
+
+     grid-template-columns: 1fr;
+     margin: 5rem;
+}
+
+.container > header {
+     margin-bottom: 1rem;
+}
+
+.book-container {
+     margin: 1rem;
+     text-align: center;
+}
+
+.card {
+     padding: 5rem;
+     border: 1px solid black;
+     margin-bottom: 2rem;
+}
+
+.card:hover {
+     background-color: grey;
+     opacity: 70%;
+}
